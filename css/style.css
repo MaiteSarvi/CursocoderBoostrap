@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "mono";
+    src: url("../assets/ttf2/DROIDSANSMONO.TTF");
+    font-style: medium;
+}
+@font-face {
+    font-family: "mango";
+    src: url("../assets/ttf2/BLACK-MANGO-BOLD.TTF");
+    font-style: bold;
+}
+@font-face {
+    font-family: "mango";
+    src: url("../assets/ttf2/BLACK-MANGO-LIGHT.TTF");
+    font-style: light;
+}
+@font-face {
+    font-family: "mango";
+    src: url("../assets/ttf2/BLACK-MANGO-MEDIUM.TTF");
+    font-style: medium;
+}
+
+/* menu */
+
+.navbar-nav a {
+    font-family: "mono", medium;
+}
+.menu {
+    background-color:beige ;
+}
+
+
+
+
+
+/* index */
+
+.imagenprincipal {
+    background-image: url("../assets/imagenes/imagen\ principal.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+}
+.imagenprincipal__text-boton {
+    background-color: #ce7e57;
+}
+.imagenprincipal__text h2 {
+    font-family: "mango", bold;
+    font-size: 60px;
+  
+}
+.imagenprincipal__text h3 {
+    font-family: "mango", bold;
+    font-size: 30px; 
+}
+
+.imagenprincipal__text h4 {
+    font-family: "mono", medium;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-decoration-line: overline;
+}
+
+
+.tracking-in-expand{-webkit-animation:tracking-in-expand 1s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand 1s cubic-bezier(.215,.61,.355,1.000) both}
+@-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+
