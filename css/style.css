@@ -71,3 +71,77 @@
 @-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
 
 
+/* main contacto */
+.suscribite h3 {
+    font-family: "mango", bold;
+    font-size: 18px;
+    color: #ce7e57;
+    margin-bottom: 10px;
+}
+
+.suscribite p {
+    font-family: "mono", bold;
+    font-size: 14px;
+    color: black;
+    letter-spacing: -1;
+}
+.suscribite2 a {
+    background-color: #ce7e57;
+    transition: .5s, .5s;
+}
+.suscribite2 a:hover {
+    background-color: beige;
+    transform:scale(1.1);
+}
+
+.suscribite1 input {
+    background-color: beige;
+}
+.suscribite1 a {
+    background-color: #ce7e57;
+    transition: .5s,.5s;
+}
+.suscribite1 a:hover {
+    background-color: beige;
+    transform:scale(1.1);
+}
+
+.contacto2 h2 {
+    font-family: "mango", bold;
+    font-size: 18px;
+    color: #ce7e57;
+    margin-bottom: 10px;
+}
+.contacto2 h4 {
+    font-family: "mono", bold;
+    font-size: 14px;
+    color: black;
+    letter-spacing: -1;
+}
+
+/* footer */
+footer {
+    background-color: beige;
+}
+.footer__grupo1-box  h1  { 
+    color:#ce7e57;
+    font-size: 15px;
+    font-family: "mango", bold;
+    margin-bottom: 10px;
+    
+}
+.footer__grupo1-box  h3 {
+    color: rgb(32, 32, 32);
+    font-size: 12px;
+    font-family: "mono", bold;
+    letter-spacing: 0px;
+    margin-bottom: 18px
+}
+
+
+@media screen and (max-width: 530px)
+{
+    .imagenprincipal__text h4 {
+        font-size: 10px;
+    }
+}
